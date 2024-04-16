@@ -7,6 +7,17 @@
     }
 
 .menu_nav_item a {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     }
+.menu_nav_item a:hover {
+     color: crimson;
+    }
+
+.menu_nav_item a:active {
+    color: blue;
+    }
+
+.menu_nav_item a::after {
+    content: " / ";
+}
