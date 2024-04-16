@@ -1,2 +1,12 @@
-.main   
+.menu_nav_item {
+    display: inline-block;
+    }
  
+.menu {
+    background-color: blueviolet;
+    }
+
+.menu_nav_item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
